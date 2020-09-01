@@ -1,0 +1,32 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Code Bot",
+      "description": "",
+      "version": "1.0"
+    },
+    "produces": ["application/json"],
+    "paths": {
+      
+      "/api/users": {
+         "get": {
+           "x-swagger-router-controller": "bar",
+           "operationId": "impossible",
+           "tags": ["/api/users"],
+           "description": "",
+           "parameters": [],
+           "responses": {}
+         }
+       },
+       "/api/questions": {
+        "get": {
+          "x-swagger-router-controller": "bar",
+          "operationId": "impossible",
+          "tags": ["/api/questions"],
+          "description": "",
+          "parameters": [],
+          "responses": {}
+        }
+      }
+    }
+ }
